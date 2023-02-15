@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>list</title>
+</head>
+<body>
+<p><a href="belimbing.html" target="contents">Belimbing</a></p>
+<p><a href="delima.html" target="contents">Delima</a></p>
+<p><a href="manggis.html" target="contents">Manggis</a></p
+<p><a href="durian.html" target="contents">Durian</a></p
+<br></br>
+
+<p>Yang manakah buah kegemaran anda?</p>
+<select>
+<option value="Belimbing">Belimbing</option>
+<option value="Delima">Delima</option>
+<option value="Manggis">Manggis</option>
+<option value="Durian">Durian</option>
+</select>
+
+<form method="post">
+<br>sebab:<br/>
+<textarea name='komen'id='komen'></textarea><br/>
+<input type='hidden'name='articlied'
+id='articlied' value='<?echo $_GET["id"];?>'/>
+<input type='submit' value='Hantar'/>
+</form>
+</body>
+</html>
